@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 
 s = Service("C:\\Users\\chokk\\Downloads\\chromedriver_win32\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
+#nothing
 driver.get("https://test.salesforce.com/")
 driver.find_element(By.CSS_SELECTOR, "#username").send_keys("sandeep")
 driver.find_element(By.CSS_SELECTOR, ".password").send_keys("password")
