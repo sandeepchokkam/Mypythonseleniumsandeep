@@ -18,4 +18,6 @@ dropdown = Select(d)
 dropdown.select_by_visible_text("Female")
 driver.find_element(By.XPATH, "//input[@type='submit']").click()
 print(driver.find_element(By.CLASS_NAME,"alert-success").text)
+# syntax for xpath Regular expression: [Contains(@attribute,'value')]
+# syntax for CSS Regular expression: [attribute*='value']
 
